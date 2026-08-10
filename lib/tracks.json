@@ -1,0 +1,464 @@
+{
+  "app": {
+    "name": "Corporate Radio",
+    "timezone": "Asia/Kolkata",
+    "autoMode": true,
+    "shuffleWithinEvent": true,
+    "eventDurationMinutes": 60
+  },
+
+  "songs": [
+    {
+      "id": "song_001",
+      "youtubeId": "7PzwOiW8-n0",
+      "title": "Aal Izz Well",
+      "artist": "Sonu Nigam, Swanand Kirkire & Shaan",
+      "tags": ["monday", "stress", "meeting", "survival", "morning"]
+    },
+    {
+      "id": "song_002",
+      "youtubeId": "Le_aY-4FJ7E",
+      "title": "Give Me Some Sunshine",
+      "artist": "Suraj Jagan",
+      "tags": ["frustration", "job", "burnout", "salary", "late-night"]
+    },
+    {
+      "id": "song_003",
+      "youtubeId": "9iIX4PBplAY",
+      "title": "Kar Har Maidaan Fateh",
+      "artist": "Sukhwinder Singh & Shreya Ghoshal",
+      "tags": ["deadline", "grind", "motivation", "pressure", "production"]
+    },
+    {
+      "id": "song_004",
+      "youtubeId": "Ax0G_P2dSBw",
+      "title": "Zinda",
+      "artist": "Siddharth Mahadevan",
+      "tags": ["production", "deadline", "urgent", "grind", "pressure"]
+    },
+    {
+      "id": "song_005",
+      "youtubeId": "Ll20uWwhWZc",
+      "title": "Apna Time Aayega",
+      "artist": "Ranveer Singh",
+      "tags": ["promotion", "appraisal", "career", "motivation", "salary"]
+    },
+    {
+      "id": "song_006",
+      "youtubeId": "u3h1DvwH6yM",
+      "title": "Lakshya",
+      "artist": "Shankar Mahadevan",
+      "tags": ["goals", "motivation", "work", "career", "morning"]
+    },
+    {
+      "id": "song_007",
+      "youtubeId": "hT5-kDr2vL4",
+      "title": "Aashayein",
+      "artist": "KK & Salim Merchant",
+      "tags": ["hope", "career", "promotion", "appraisal", "motivation"]
+    },
+    {
+      "id": "song_008",
+      "youtubeId": "MaHer8x2yo4",
+      "title": "Ruk Jaana Nahin",
+      "artist": "Kishore Kumar",
+      "tags": ["deadline", "motivation", "pressure", "late-night"]
+    },
+    {
+      "id": "song_009",
+      "youtubeId": "r03GO2AlNUo",
+      "title": "Paisa Paisa",
+      "artist": "RDB, Manak-E & Selina",
+      "tags": ["salary", "money", "increment", "friday", "payday"]
+    },
+    {
+      "id": "song_010",
+      "youtubeId": "Faqp_UdpZro",
+      "title": "Paisa Ye Paisa",
+      "artist": "Kishore Kumar",
+      "tags": ["salary", "money", "increment", "appraisal"]
+    },
+    {
+      "id": "song_011",
+      "youtubeId": "VnuAKmEwXiA",
+      "title": "Tanha Dil",
+      "artist": "Shaan",
+      "tags": ["lonely", "late-night", "overtime", "burnout", "office"]
+    },
+    {
+      "id": "song_012",
+      "youtubeId": "aryz97joKOI",
+      "title": "Kya Mujhe Pyaar Hai",
+      "artist": "KK",
+      "tags": ["office-crush", "romance", "love", "colleague"]
+    },
+    {
+      "id": "song_013",
+      "youtubeId": "swcCuuQKGJ4",
+      "title": "Pehli Nazar Mein",
+      "artist": "Atif Aslam",
+      "tags": ["office-crush", "romance", "love", "colleague"]
+    },
+    {
+      "id": "song_014",
+      "youtubeId": "mQ-hLsVTcW8",
+      "title": "Yaaron",
+      "artist": "KK",
+      "tags": ["friends", "chai-break", "colleagues", "team"]
+    },
+    {
+      "id": "song_015",
+      "youtubeId": "Wo-M5x7apQw",
+      "title": "Atrangi Yaari",
+      "artist": "Amitabh Bachchan & Farhan Akhtar",
+      "tags": ["friends", "colleagues", "team", "chai-break"]
+    },
+    {
+      "id": "song_016",
+      "youtubeId": "mgF6SGtEr6g",
+      "title": "Dil Chahta Hai",
+      "artist": "Shankar Mahadevan",
+      "tags": ["friends", "weekend", "leave-office", "escape"]
+    },
+    {
+      "id": "song_017",
+      "youtubeId": "n0PoVxBMUyE",
+      "title": "Jaane Kyun",
+      "artist": "Vishal Dadlani",
+      "tags": ["friday", "friends", "chill", "weekend"]
+    },
+    {
+      "id": "song_018",
+      "youtubeId": "x4UjdNUjwoQ",
+      "title": "Aaj Ki Party",
+      "artist": "Mika Singh",
+      "tags": ["friday", "party", "salary", "weekend", "team-outing"]
+    },
+    {
+      "id": "song_019",
+      "youtubeId": "8LZgzAZ2lpQ",
+      "title": "Abhi Toh Party Shuru Hui Hai",
+      "artist": "Badshah & Aastha Gill",
+      "tags": ["friday", "party", "weekend", "office-party"]
+    },
+    {
+      "id": "song_020",
+      "youtubeId": "rW9_-dVCmrM",
+      "title": "Saturday Saturday",
+      "artist": "Indeep Bakshi, Akriti Kakkar & Badshah",
+      "tags": ["saturday", "weekend", "party", "holiday"]
+    },
+    {
+      "id": "song_021",
+      "youtubeId": "NTHz9ephYTw",
+      "title": "Kar Gayi Chull",
+      "artist": "Badshah, Fazilpuria, Sukriti Kakar & Neha Kakkar",
+      "tags": ["team-outing", "party", "friday", "weekend", "fun"]
+    },
+    {
+      "id": "song_022",
+      "youtubeId": "II2EO3Nw4m0",
+      "title": "Badtameez Dil",
+      "artist": "Benny Dayal & Shefali Alvarez",
+      "tags": ["friday", "weekend", "fun", "rebellion", "leave-office"]
+    },
+    {
+      "id": "song_023",
+      "youtubeId": "uSD4vsh1zDA",
+      "title": "I Gotta Feeling",
+      "artist": "The Black Eyed Peas",
+      "tags": ["friday", "weekend", "party", "celebration"]
+    },
+    {
+      "id": "song_024",
+      "youtubeId": "gWn4Csu3Kc8",
+      "title": "Main Aisa Kyun Hoon",
+      "artist": "Shaan",
+      "tags": ["burnout", "existential", "manager", "office", "stress"]
+    },
+    {
+      "id": "song_025",
+      "youtubeId": "ewvddSUEONQ",
+      "title": "Behti Hawa Sa Tha Woh",
+      "artist": "Shaan",
+      "tags": ["escape", "weekend", "leave-office", "freedom"]
+    }
+  ],
+
+  "events": [
+    {
+      "id": "event_001",
+      "title": "Monday Survival Mode",
+      "subtitle": "The weekend is officially over.",
+      "icon": "😵",
+      "days": ["monday"],
+      "time": {
+        "start": "08:30",
+        "end": "10:00"
+      },
+      "tags": ["monday", "stress", "survival", "morning"],
+      "songs": ["song_001", "song_006", "song_024"]
+    },
+
+    {
+      "id": "event_002",
+      "title": "Let's Get Some Work Done",
+      "subtitle": "Pretending to be productive.",
+      "icon": "💻",
+      "days": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+      "time": {
+        "start": "08:30",
+        "end": "11:30"
+      },
+      "tags": ["work", "motivation", "grind"],
+      "songs": ["song_006", "song_007", "song_003"]
+    },
+
+    {
+      "id": "event_003",
+      "title": "\"Quick\" Meeting",
+      "subtitle": "This could have been an email.",
+      "icon": "📞",
+      "days": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+      "time": {
+        "start": "11:30",
+        "end": "12:30"
+      },
+      "tags": ["meeting", "stress", "office"],
+      "songs": ["song_001", "song_024", "song_002"]
+    },
+
+    {
+      "id": "event_004",
+      "title": "Chai Break",
+      "subtitle": "Because productivity needs caffeine.",
+      "icon": "☕",
+      "days": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+      "time": {
+        "start": "12:30",
+        "end": "13:00"
+      },
+      "tags": ["chai-break", "friends", "colleagues"],
+      "songs": ["song_014", "song_015", "song_017"]
+    },
+
+    {
+      "id": "event_005",
+      "title": "Post-Lunch Productivity",
+      "subtitle": "Eyes open. Brain offline.",
+      "icon": "🥱",
+      "days": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+      "time": {
+        "start": "14:00",
+        "end": "15:30"
+      },
+      "tags": ["burnout", "office", "stress"],
+      "songs": ["song_002", "song_024", "song_001"]
+    },
+
+    {
+      "id": "event_006",
+      "title": "Deadline Approaching",
+      "subtitle": "You had three days. You started now.",
+      "icon": "⏰",
+      "days": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+      "time": {
+        "start": "15:30",
+        "end": "17:00"
+      },
+      "tags": ["deadline", "grind", "pressure"],
+      "songs": ["song_003", "song_004", "song_008"]
+    },
+
+    {
+      "id": "event_007",
+      "title": "PRODUCTION ISSUE",
+      "subtitle": "Five minutes before logout. Of course.",
+      "icon": "🚨",
+      "days": ["monday", "tuesday", "wednesday", "thursday"],
+      "time": {
+        "start": "17:00",
+        "end": "18:00"
+      },
+      "tags": ["production", "urgent", "deadline", "pressure"],
+      "songs": ["song_004", "song_003", "song_008"]
+    },
+
+    {
+      "id": "event_008",
+      "title": "Should I Leave?",
+      "subtitle": "Technically, your working hours are over.",
+      "icon": "🚪",
+      "days": ["monday", "tuesday", "wednesday", "thursday"],
+      "time": {
+        "start": "18:00",
+        "end": "19:00"
+      },
+      "tags": ["leave-office", "escape", "freedom"],
+      "songs": ["song_025", "song_016", "song_008"]
+    },
+
+    {
+      "id": "event_009",
+      "title": "Still Working",
+      "subtitle": "Everyone else has gone home.",
+      "icon": "🫠",
+      "days": ["monday", "tuesday", "wednesday", "thursday"],
+      "time": {
+        "start": "19:00",
+        "end": "21:00"
+      },
+      "tags": ["late-night", "overtime", "burnout"],
+      "songs": ["song_011", "song_002", "song_024"]
+    },
+
+    {
+      "id": "event_010",
+      "title": "Office Crush",
+      "subtitle": "The only reason you don't hate Mondays.",
+      "icon": "❤️",
+      "days": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+      "time": {
+        "start": "13:00",
+        "end": "18:00"
+      },
+      "tags": ["office-crush", "romance", "love"],
+      "songs": ["song_012", "song_013"]
+    },
+
+    {
+      "id": "event_011",
+      "title": "Manager Has Entered The Chat",
+      "subtitle": "Can we have a quick word?",
+      "icon": "🧑‍💼",
+      "days": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+      "time": {
+        "start": "10:00",
+        "end": "18:00"
+      },
+      "tags": ["manager", "stress", "meeting"],
+      "songs": ["song_024", "song_001", "song_002"]
+    },
+
+    {
+      "id": "event_012",
+      "title": "Salary Day",
+      "subtitle": "For approximately 17 minutes, you are rich.",
+      "icon": "💰",
+      "days": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+      "specialDays": ["salary_day"],
+      "tags": ["salary", "money", "payday"],
+      "songs": ["song_009", "song_010", "song_005"]
+    },
+
+    {
+      "id": "event_013",
+      "title": "Appraisal Season",
+      "subtitle": "Apna time... maybe?",
+      "icon": "📈",
+      "days": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+      "specialDays": ["appraisal_period"],
+      "tags": ["promotion", "appraisal", "career"],
+      "songs": ["song_005", "song_007", "song_010"]
+    },
+
+    {
+      "id": "event_014",
+      "title": "Friday Mode",
+      "subtitle": "Nobody is actually working anymore.",
+      "icon": "🎉",
+      "days": ["friday"],
+      "time": {
+        "start": "16:00",
+        "end": "18:30"
+      },
+      "tags": ["friday", "weekend", "party"],
+      "songs": ["song_018", "song_019", "song_022", "song_023"]
+    },
+
+    {
+      "id": "event_015",
+      "title": "Corporate Network: Abandoned",
+      "subtitle": "Employees are disconnecting.",
+      "icon": "🏃",
+      "days": ["friday"],
+      "time": {
+        "start": "18:30",
+        "end": "23:59"
+      },
+      "tags": ["friday", "weekend", "escape", "party"],
+      "songs": ["song_018", "song_019", "song_022", "song_023", "song_016"]
+    },
+
+    {
+      "id": "event_016",
+      "title": "Weekend Has Entered The Chat",
+      "subtitle": "Corporate responsibilities temporarily unavailable.",
+      "icon": "🕺",
+      "days": ["saturday", "sunday"],
+      "time": {
+        "start": "09:00",
+        "end": "23:59"
+      },
+      "tags": ["weekend", "party", "freedom"],
+      "songs": ["song_020", "song_021", "song_022", "song_023", "song_025"]
+    }
+  ],
+
+  "manualModes": [
+    {
+      "id": "mode_chai",
+      "label": "Chai Break",
+      "icon": "☕",
+      "tags": ["chai-break", "friends", "colleagues"]
+    },
+    {
+      "id": "mode_grind",
+      "label": "Actually Working",
+      "icon": "💻",
+      "tags": ["grind", "work", "motivation"]
+    },
+    {
+      "id": "mode_production",
+      "label": "Everything Is On Fire",
+      "icon": "🚨",
+      "tags": ["production", "urgent", "deadline"]
+    },
+    {
+      "id": "mode_crush",
+      "label": "Office Crush",
+      "icon": "❤️",
+      "tags": ["office-crush", "romance"]
+    },
+    {
+      "id": "mode_meeting",
+      "label": "\"Quick\" Meeting",
+      "icon": "📞",
+      "tags": ["meeting", "manager"]
+    },
+    {
+      "id": "mode_salary",
+      "label": "Waiting For Salary",
+      "icon": "💰",
+      "tags": ["salary", "money"]
+    },
+    {
+      "id": "mode_manager",
+      "label": "Boss Is Calling",
+      "icon": "🧑‍💼",
+      "tags": ["manager", "stress"]
+    },
+    {
+      "id": "mode_quit",
+      "label": "Mentally Resigned",
+      "icon": "🚪",
+      "tags": ["escape", "leave-office", "freedom"]
+    },
+    {
+      "id": "mode_friday",
+      "label": "Friday Mode",
+      "icon": "🎉",
+      "tags": ["friday", "weekend", "party"]
+    }
+  ]
+}
