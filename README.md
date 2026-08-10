@@ -110,14 +110,39 @@ and the build output ship.
 
 ## Deploying
 
+Live at **https://corporatesucks.vercel.app**.
+
 ```bash
 npx vercel        # preview URL
 npx vercel --prod # production
 ```
 
-`output: 'export'` means Vercel serves it as plain static files — no serverless
-functions, no runtime, free tier is plenty. `npm run build` runs the data validator
-first, so a dead YouTube id fails the deploy rather than reaching production.
+`output: 'export'` means Vercel serves plain static files — no serverless functions,
+no runtime, ~1.4MB deployed. `npm run build` runs the data validator first, so a dead
+YouTube id or a situation with no matching song fails the deploy instead of shipping
+silence.
+
+**Pushing to GitHub does not deploy.** The repo isn't connected to Vercel, so a
+deploy only happens when you run the command above. To change that, connect the repo
+under *Vercel → Project → Settings → Git*; after that, pushes to `main` go to
+production and branches get preview URLs.
+
+### Don't remove vercel.json
+
+```json
+{ "buildCommand": "npm run build", "outputDirectory": "out", "framework": null }
+```
+
+Without it, Vercel falls back to the "Other" preset, whose default output directory
+is `public/`. The Next.js build still succeeds, so nothing looks wrong — but the
+deployed site serves `public/` as its root: images resolve, every page 404s.
+Pinning `outputDirectory` is what prevents that.
+
+### Google Search Console
+
+`public/google9006fe4ba9d7e9d7.html` is the verification file. It has to be in
+`public/` so the export copies it to the site root. Google fetches it from the live
+site, so it only counts after a deploy — pushing it to GitHub is not enough.
 
 ## Files
 
